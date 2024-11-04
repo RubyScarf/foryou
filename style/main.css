@@ -11,9 +11,10 @@ body {
   background-repeat: no-repeat; /* Prevent repeating */
   height: 100vh; /* Ensure the body takes the full viewport height */
   margin: 0; /* Remove default margin */
+  background-color: rgba(0, 0, 0, 0.3); /* Black tint with 30% opacity */
 }
 
-body::before {
+p::before {
   content: "";
   position: absolute;
   top: 0;
@@ -22,23 +23,18 @@ body::before {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.3); /* Black tint with 30% opacity */
   z-index: 1;
-}
-
-body span {
-  position: relative;
-  z-index: 2; /* Ensures the text is above the overlay */
-}
 
 p {
   color: #fff 
   background-color: rgba(0, 0, 0, 0.5); /* Background color with opacity */
+  z-index: 2;
 }
 
 .round-img {
     width: 30px; /* Adjust width as needed */
     height: 30px; /* Adjust height as needed */
     border-radius: 50%; /* Makes the image round */
-    vertical-align: left; /* Aligns the image with the text */
+    /* vertical-align: middle;  Aligns the image with the text */
     margin-right: 5px; /* Adds some space between the image and the text */
 }
 
