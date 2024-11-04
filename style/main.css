@@ -159,11 +159,11 @@ p {
   position: absolute;
 }
 
-.baloons img:nth-child(even) {
+.baloons img:nth-child(odd) {
   left: -10%; /* og -10% */
 }
 
-.baloons img:nth-child(odd) {
+.baloons img:nth-child(even) {
   right: -10%; /* og -10% */
 }
 
@@ -172,7 +172,7 @@ p {
 }
 
 .seven, .eight {
-  height: -100vh;
+  height: 100vh;
   position: fixed;
   top: 0;
   width: 100vw;
