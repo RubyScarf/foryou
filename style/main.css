@@ -14,27 +14,16 @@ body {
   background-color: rgba(0, 0, 0, 0.3); /* Black tint with 30% opacity */
 }
 
-p::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3); /* Black tint with 30% opacity */
-  z-index: 1;
-
 p {
   color: #fff 
-  background-color: rgba(0, 0, 0, 0.5); /* Background color with opacity */
-  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.1); /* Background color with opacity */
 }
 
 .round-img {
     width: 30px; /* Adjust width as needed */
     height: 30px; /* Adjust height as needed */
     border-radius: 50%; /* Makes the image round */
-    /* vertical-align: middle;  Aligns the image with the text */
+    verticle-align: middle;/* vertical-align: middle;  Aligns the image with the text */
     margin-right: 5px; /* Adds some space between the image and the text */
 }
 
