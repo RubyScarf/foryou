@@ -13,6 +13,10 @@ body {
   margin: 0; /* Remove default margin */
 }
 
+p {
+  color: #000
+}
+
 .song {
   visibility: hidden;
 }
