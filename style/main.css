@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat; /* Prevent repeating */
   height: 100vh; /* Ensure the body takes the full viewport height */
   margin: 0; /* Remove default margin */
-  background-color: rgba(0, 0, 0, 0.3); /* Black tint with 30% opacity */
+  background-color: rgba(0, 0, 0, 0.5); /* Black tint with 50% opacity */
 }
 
 p {
