@@ -18,7 +18,6 @@ p {
   /* background-color: rgba(0, 0, 0, 0.1); Background color with opacity */
 }
 
-
 .round-img {
     width: 30px; /* Adjust width as needed */
     height: 30px; /* Adjust height as needed */
@@ -26,13 +25,6 @@ p {
     verticle-align: middle;/* vertical-align: middle;  Aligns the image with the text */
     margin-right: 5px; /* Adds some space between the image and the text */
 }
-
-.four .text-box img.round-img {
-    margin-right: 10px; /* Space between the image and text */
-    width: 30px; /* Adjust width as needed */
-    height: 30px; /* Adjust height as needed */
-    border-radius: 50%; /* Makes the image round */
-    verticle-align: middle;/* vertical-align: middle;  Aligns the image with the text */
 
 .song {
   visibility: hidden;
@@ -142,19 +134,9 @@ p {
   width: 80px;
 }
 
-@keyframes floatDown {
-  0% {
-    transform: translateY(0); /* Start at the original position */
-  }
-  100% {
-    transform: translateY(100vh); /* Move downward by 100% of the viewport height */
-  }
-}
-
 .baloons img {
   display: inline-block;
   position: absolute;
-  animation: floatDown 5s linear infinite; /* Adjust duration for the speed */
 }
 
 .baloons img:nth-child(even) {
