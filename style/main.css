@@ -18,12 +18,14 @@ p {
   /* background-color: rgba(0, 0, 0, 0.1); Background color with opacity */
 }
 
-.round-img {
+
+
+.four .text-box img.round-img {
+    margin-right: 10px; /* Space between the image and text */
     width: 30px; /* Adjust width as needed */
     height: 30px; /* Adjust height as needed */
     border-radius: 50%; /* Makes the image round */
     verticle-align: middle;/* vertical-align: middle;  Aligns the image with the text */
-    margin-right: 5px; /* Adds some space between the image and the text */
 }
 
 .song {
