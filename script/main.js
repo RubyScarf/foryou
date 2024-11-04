@@ -53,11 +53,11 @@ const animationTimeline = () => {
     tl.to(".container", 0.6, {
         visibility: "visible"
     })
-    .from(".one", 0.7, {
+    .from(".one", 0.9, {
         opacity: 0,
         y: 10
     })
-    .from(".two", 0.4, {
+    .from(".two", 0.7, {
         opacity: 0,
         y: 10
     })
