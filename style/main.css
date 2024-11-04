@@ -69,13 +69,19 @@ p {
   width: 600px;
 }
 
-.text-box .round-img {
+.round-img {
   text-align: left;
   width: 30px; /* Adjust width as needed */
   height: 30px; /* Adjust height as needed */
   border-radius: 50%; /* Makes the image round */
   verticle-align: middle;/* vertical-align: middle;  Aligns the image with the text */
   margin-right: 5px; /* Adds some space between the image and the text */
+}
+
+.text-box {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Optional: add space between items */
 }
 
 .text-box p {
