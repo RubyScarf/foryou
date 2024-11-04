@@ -2,7 +2,7 @@
 window.addEventListener('load', () => {
     Swal.fire({
         title: 'Do you want to play music in the background?',
-        iconHtml: '<i class="fas fa-music"></i>', // Music note icon
+        iconHtml: '<i class="fas fa-music" style="font-size: 16px;"></i>', // Music note icon
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
