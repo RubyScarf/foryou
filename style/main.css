@@ -142,9 +142,19 @@ p {
   width: 80px;
 }
 
+@keyframes floatDown {
+  0% {
+    transform: translateY(0); /* Start at the original position */
+  }
+  100% {
+    transform: translateY(100vh); /* Move downward by 100% of the viewport height */
+  }
+}
+
 .baloons img {
   display: inline-block;
   position: absolute;
+  animation: floatDown 5s linear infinite; /* Adjust duration for the speed */
 }
 
 .baloons img:nth-child(even) {
