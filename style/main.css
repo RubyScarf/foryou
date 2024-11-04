@@ -168,55 +168,55 @@ p {
 }
 
 .eight svg:nth-child(1) {
-  fill: #bd6ecf;
+  fill: #135900; /* green */
   left: 5vw;
   top: 7vh;
 }
 
 .eight svg:nth-child(2) {
-  fill: #7dd175;
+  fill: #7dd175; /* light green */
   left: 35vw;
   top: 23vh;
 }
 
 .eight svg:nth-child(3) {
-  fill: #349d8b;
+  fill: #349d8b; /* red */
   left: 23vw;
   top: 33vh;
 }
 
 .eight svg:nth-child(4) {
-  fill: #347a9d;
+  fill: #4f000d; /* red dark */
   left: 57vw;
   top: 43vh;
 }
 
 .eight svg:nth-child(5) {
-  fill: #c66053;
+  fill: #44751e; /* green white */
   left: 7vw;
   top: 68vh;
 }
 
 .eight svg:nth-child(6) {
-  fill: #bfaa40;
+  fill: #b53714; /* orangish */
   left: 77vw;
   top: 42vh;
 }
 
 .eight svg:nth-child(7) {
-  fill: #e3bae8;
+  fill: #a15552;/* pinky red */
   left: 83vw;
   top: 68vh;
 }
 
 .eight svg:nth-child(8) {
-  fill: #8762cb;
+  fill: #1cd9a0; /* bluish */
   left: 37vw;
   top: 86vh;
 }
 
 .eight svg:nth-child(9) {
-  fill: #9a90da;
+  fill: #031c02; /* darkk green */
   left: 87vw;
   top: 94vh;
 }
@@ -225,8 +225,6 @@ p {
   font-size: 3em;
   margin: 0;
   text-transform: uppercase;
-}
-  
 }
 
 .wish-hbd {
