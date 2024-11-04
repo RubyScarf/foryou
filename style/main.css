@@ -5,6 +5,12 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  background-image: url('https://i.pinimg.com/736x/81/46/4c/81464cf221fe7e7b2dd284e00fd17157.jpg');
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating */
+  height: 100vh; /* Ensure the body takes the full viewport height */
+  margin: 0; /* Remove default margin */
 }
 
 .song {
