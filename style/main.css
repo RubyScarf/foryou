@@ -78,10 +78,15 @@ p {
   margin-right: 5px; /* Adds some space between the image and the text */
 }
 
-.text-box {
-    display: flex; /* Use flexbox */
-    align-items: center; /* Center items vertically */
-    gap: 10px; /* Optional: add space between items */
+.round-img {
+    display: inline-block; /* Make the image inline */
+    vertical-align: middle; /* Align with text */
+    margin-right: 10px; /* Space between image and text */
+}
+
+.hbd-chatbox {
+    display: inline-block; /* Make the paragraph inline */
+    color: #fff; /* Keep the text color */
 }
 
 .text-box p {
