@@ -13,6 +13,14 @@ body {
   margin: 0; /* Remove default margin */
 }
 
+.round-img {
+    width: 30px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    border-radius: 50%; /* Makes the image round */
+    vertical-align: middle; /* Aligns the image with the text */
+    margin-right: 5px; /* Adds some space between the image and the text */
+}
+
 .song {
   visibility: hidden;
 }
@@ -213,12 +221,6 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-
-.the-link h4 {
-  font-size: 1rem;
-  margin: 10px 0 0;
-  font-weight: lighter;
-  color: #032c40;
   
 }
 
