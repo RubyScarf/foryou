@@ -224,7 +224,7 @@ const animationTimeline = () => {
         }, {
             scale: 1,
             rotationY: 0,
-            color: "#07420c",
+            color: "#ff0000", 
             ease: Expo.easeOut,
         },
         0.1,
