@@ -13,6 +13,10 @@ body {
   margin: 0; /* Remove default margin */
 }
 
+p {
+  color: #fff 
+}
+
 .round-img {
     width: 30px; /* Adjust width as needed */
     height: 30px; /* Adjust height as needed */
