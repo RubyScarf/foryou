@@ -159,11 +159,11 @@ p {
   position: absolute;
 }
 
-.baloons img:nth-child(odd) {
+.baloons img:nth-child(even) {
   left: -10%; /* og -10% */
 }
 
-.baloons img:nth-child(even) {
+.baloons img:nth-child(odd) {
   right: -10%; /* og -10% */
 }
 
