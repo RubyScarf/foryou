@@ -13,6 +13,22 @@ body {
   margin: 0; /* Remove default margin */
 }
 
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Black tint with 30% opacity */
+  z-index: 1;
+}
+
+body span {
+  position: relative;
+  z-index: 2; /* Ensures the text is above the overlay */
+}
+
 p {
   color: #fff 
   background-color: rgba(0, 0, 0, 0.5); /* Background color with opacity */
