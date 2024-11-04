@@ -50,7 +50,7 @@ const animationTimeline = () => {
     // timeline
     const tl = new TimelineMax();
 
-    tl.to(".container", 0.9, {
+    tl.to(".container", 0.6, {
         visibility: "visible"
     })
     .from(".one", 0.7, {
@@ -67,7 +67,7 @@ const animationTimeline = () => {
             opacity: 0,
             y: 10
         },
-    "+=3.5")
+    "+=2") /*  og was 3.5 */
     .to(".two",
         0.7,
         {
