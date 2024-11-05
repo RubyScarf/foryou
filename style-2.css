@@ -12,7 +12,7 @@ body {
     
     min-height: 100vh;
     overflow-x: hidden;
-    background: linear-gradient(#2b1055, #7597de);
+    background: linear-gradient(#551310, #de758f);
 }
 
 header {
@@ -58,7 +58,7 @@ header ul li a:hover ,
 header ul li a.active
 {
     background: #fff;
-    color: #2b1055;
+    color: #551310;
 }
 
 section {
@@ -78,7 +78,7 @@ section::before {
     bottom: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top, #1c0522, transparent);
+    background: linear-gradient(to top, #052207, transparent);
     z-index: 1000;
 }
 
@@ -115,8 +115,8 @@ section img#mountains_front {
     display: inline-block;
     padding: 8px 30px;
     border-radius: 20px;
-    background: #a7baf0;
-    color: #2b1055;
+    background: #d66581;
+    color: #551310;
     font-size: 1.5em;
     z-index: 9;
     transform: translateY(100px);
@@ -126,7 +126,7 @@ section img#mountains_front {
 .sec {
     position: relative;
     padding: 100px;
-    background: #1c0522;
+    background: #052207;
 }
 
 .sec h1 {
