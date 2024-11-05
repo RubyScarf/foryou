@@ -61,53 +61,30 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
     })
-    .to(".one",
-        0.7,
-        {
-            opacity: 0,
-            y: 10
+    .to(".one", 0.7, {
+        opacity: 0,
+        y: 10
         },
     "+=3.5") /*  og was 3.5 */
-    .to(".two",
-        0.7,
-        {
-            opacity: 0,
-            y: 10
+    .to(".two", 0.7, {
+        opacity: 0,
+        y: 10
         },
     "-=1")
     .from(".three", 0.8, {
         opacity: 0,
         y: 10
     })
-    .to(".three",
-        0.8,
-        {
-            opacity: 0,
-            y: 10
+    .to(".three", 0.8, {
+        opacity: 0,
+        y: 10
         },
     "+=2.5")
     .from(".four", 0.7, {
         scale: 0.2,
         opacity: 0,
     })
-    .from(".fake-btn", 0.3, {
-        scale: 0.2,
-        opacity: 0,
-    })
-    .staggerTo(
-        ".hbd-chatbox span",
-        1.5, {
-            visibility: "visible",
-        },
-        0.05
-    )
-    .to(".fake-btn", 0.1, {
-        backgroundColor: "rgb(127, 206, 248)",
-    },
-    "+=2")
-    .to(
-        ".four",
-        0.4, {
+    .to(".four", 0.4, {
             scale: 0.2,
             opacity: 0,
             y: -150
