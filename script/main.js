@@ -180,7 +180,7 @@ const animationTimeline = () => {
         ".baloons img",
         2.5, {
             opacity: 0.9,
-            y: 1400,
+            y: -1400,
         }, {
             opacity: 1,
             y: 1000,
