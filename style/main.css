@@ -34,6 +34,10 @@ p {
   /* background-color: rgba(0, 0, 0, 0.1); Background color with opacity */
 }
 
+.usercolor {
+  color: #337187;
+}
+
 .song {
   visibility: hidden;
 }
