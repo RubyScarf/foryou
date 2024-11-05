@@ -12,7 +12,7 @@ body {
     
     min-height: 100vh;
     overflow-x: hidden;
-    background: linear-gradient(#122909, #235c0d);
+    background: linear-gradient(#2b1055, #7597de);
 }
 
 header {
@@ -171,7 +171,3 @@ h2 {
     filter: brightness(1.2); /* Increase brightness by 20% */
     
 }
-
-
-
-
