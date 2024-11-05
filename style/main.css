@@ -84,7 +84,7 @@ p {
   height: 30px; /* Adjust height as needed */
   border-radius: 50%; /* Makes the image round */
   display: inline-block; /* Make the image inline */
-  vertical-align: middle; /* Align with text */
+  vertical-align: top; /* Align with text */
   margin-right: 10px; /* Space between image and text */
 }
 
