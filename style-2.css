@@ -58,7 +58,7 @@ header ul li a:hover ,
 header ul li a.active
 {
     background: #fff;
-    color: #551310;
+    color: #360402;
 }
 
 section {
@@ -116,7 +116,7 @@ section img#mountains_front {
     padding: 8px 30px;
     border-radius: 20px;
     background: #d66581;
-    color: #551310;
+    color: #360402;
     font-size: 1.5em;
     z-index: 9;
     transform: translateY(100px);
