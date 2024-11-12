@@ -34,16 +34,6 @@ p {
   /* background-color: rgba(0, 0, 0, 0.1); Background color with opacity */
 }
 
-h1 {
-  color: #fff;
-  font-size: 3rem;
-}
-
-h2 {
-  color: 255,10,10;
-  font-size: 1rem;
-}
-
 .usercolor {
   color: #337187;
 }
