@@ -1,3 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+
 body {
-  background
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-image: url('https://wallpapers.com/images/hd/christmas-cat-pictures-0lep4l4dn0tqhg98.jpg'); /* Background image link here */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating */
+  height: 100vh; /* Ensure the body takes the full viewport height */
+  margin: 0; /* Remove default margin */
 }
