@@ -12,3 +12,8 @@ body {
   height: 100vh; /* Ensure the body takes the full viewport height */
   margin: 0; /* Remove default margin */
 }
+
+.text {
+  text-align:center; 
+  color:#fff
+}
