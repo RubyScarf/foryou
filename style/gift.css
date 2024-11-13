@@ -19,9 +19,8 @@ body {
 }
 
 img {
-  text-align: center; 
-  display: inline-block;
-  height: 150px;
-  max-width: 100%;
-  /* height: auto; */
+  display: block;
+  margin: 0 auto; /* centers the image */
+  max-width: 100%; /* makes it responsive */
+  height: auto; /* maintains aspect ratio */
 }
