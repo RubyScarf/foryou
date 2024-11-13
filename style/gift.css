@@ -20,7 +20,7 @@ body {
 
 img {
   display: block;
-  margin: 10px auto; /* centers the image */
+  margin: 0 auto; /* centers the image */
   max-width: 100%; /* makes it responsive */
   height: auto; /* maintains aspect ratio */
 }
