@@ -5,7 +5,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background: linear-gradient(to right, #a32424, #);
+  background: linear-gradient(to right, #a32424, #fff);
   /* background-image: url('https://wallpapers.com/images/hd/christmas-cat-pictures-0lep4l4dn0tqhg98.jpg'); */ /* Background image link here */
   background-size: cover; /* Cover the entire viewport */
   background-position: center; /* Center the image */
