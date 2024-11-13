@@ -19,6 +19,7 @@ body {
 }
 
 img {
+  text-align: center; 
   display: inline-block;
   height: 150px;
   max-width: 100%;
