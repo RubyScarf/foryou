@@ -21,7 +21,7 @@ body {
 
 img {
   display: block;
-  margin: 0 auto; /* centers the image */
-  max-height: 100%; /* makes it responsive */
-  width: auto; /* maintains aspect ratio */
+  margin: 10px auto; /* adds a small margin around the image */
+  max-height: 90vh; /* limits the height to 90% of the viewport */
+  width: auto; /* maintains aspect ratio based on height */
 }
