@@ -26,13 +26,14 @@ body::before {
 }
 
 body {
-  position: relative;
-  z-index: 1;
+  
 }
 
 .text {
   text-align:center; 
   color:#fff
+  position: relative;
+  z-index: 1;
 }
 
 h1 {
@@ -45,4 +46,6 @@ img {
   margin: 10px auto; /* adds a small margin around the image */
   max-height: 70vh; /* limits the height to 90% of the viewport */
   width: auto; /* maintains aspect ratio based on height */
+  position: relative;
+  z-index: 1;
 }
