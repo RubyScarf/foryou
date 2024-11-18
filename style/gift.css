@@ -10,7 +10,7 @@ body {
   background-size: cover; /* Cover the entire viewport */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent repeating */
-  height: 100vh; /* Ensure the body takes the full viewport height */
+  /* height: 100vh; Ensure the body takes the full viewport height */
   margin: 0; /* Remove default margin */
 }
 
