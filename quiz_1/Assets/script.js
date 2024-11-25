@@ -174,18 +174,19 @@ function createLayout(questionObj) {
 }
 
 /** if answer button is clicked, execute this function. Shows "Right" or "wrong" text, depending on answer */
-function checkAnswer(questionObj, selectedAnswerIndex) {
-    const correctAnswerIndex = questionObj.correctAnswer - 1; // Adjust for 1-based index
+function checkAnswer(selectedIndex, correctIndex) {
     let feedbackText = document.getElementById('right-wrong');
     let hrElem = document.getElementById("answer-bar");
 
-    if (selectedAnswerIndex === correctAnswerIndex) {
+    // Check if the selected answer is correct
+    if (selectedIndex === correctIndex) {
         feedbackText.textContent = "Correct!!!";
     } else {
         feedbackText.textContent = "Wrong :(";
         penalize(PENALTYTIME); // Deduct time for wrong answers
     }
 
+    // Show feedback temporarily
     hrElem.style.visibility = 'visible';
     feedbackText.style.visibility = 'visible';
     setTimeout(() => {
@@ -193,7 +194,8 @@ function checkAnswer(questionObj, selectedAnswerIndex) {
         feedbackText.style.visibility = 'hidden';
     }, 2000);
 
-    runQuiz(); // Move to the next question
+    // Move to the next question
+    runQuiz();
 }
 
 
