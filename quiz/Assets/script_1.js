@@ -2,7 +2,7 @@
 
 // Quiz questions to be asked.
 let questionArray = [
-    { "question": "What are the names of Santa’s reindeer who lead his sleigh?",
+    { "question": "What is the name of Santa’s reindeer who leads his sleigh?",
         "answers": ["Donner", "Comet", "Rudolph", "Dasher", "Donner"],
         "correctAnswer": 2
     },
