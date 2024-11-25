@@ -176,46 +176,29 @@ function createLayout(questionObj) {
 
 
 /** if answer button is clicked, execute this function. Shows "Right" or "wrong" text, depending on answer */
-function checkAnswer(event) {
-    event.preventDefault();
-    if (event.target.matches("button")) {
-        let hrElem = document.getElementById("answer-bar");
-        let feedbackText = document.getElementById('right-wrong');
-        if (event.target.id === "correctAnswer") {
-            feedbackText.textContent = "Correct!!!"
-        }
-        else {
-            feedbackText.textContent = "Wrong :(";
-            penalize(PENALTYTIME);
-        }
-
-        // Unhide the 'right' or 'wrong' text
-        hrElem.style.visibility = 'visible';
-        feedbackText.style.visibility = 'visible';
-
-        // execute runQuiz to continue the quiz by displaying a new question
-        runQuiz();
-
-        // After a bit of time, hide the right or wrong text again.
-        // Notes: If the variable answerDisplayTime is defined within this function, it gets defined each time the function is called.
-        // This results in setInterval hiding the text according to each local answerDisplayTime variable.
-        // Therefore answerDisplayTime is a global time variable. Similar situation for setTimeout().
-        answerDisplayTime = newTime - 2;
-        if (answerDisplayTime < 0) {
-            answerDisplayTime = 0;
-        }
-        let displayInterval = setInterval(
-            function() {
-                if (answerDisplayTime >= newTime) {
-                    hrElem.style.visibility = 'hidden';
-                    feedbackText.style.visibility = 'hidden';
-                    clearInterval(displayInterval);
-                }
-            },
-            1000
-        );
+function checkAnswer(index, correctIndex) {
+    const hrElem = document.getElementById("answer-bar");
+    const feedbackText = document.getElementById('right-wrong');
+    
+    if (index === correctIndex) {
+        feedbackText.textContent = "Correct!!!";
+    } else {
+        feedbackText.textContent = "Wrong :(";
+        penalize(PENALTYTIME);
     }
+
+    // Show feedback and proceed to next question
+    hrElem.style.visibility = 'visible';
+    feedbackText.style.visibility = 'visible';
+
+    setTimeout(() => {
+        hrElem.style.visibility = 'hidden';
+        feedbackText.style.visibility = 'hidden';
+    }, 2000);
+
+    runQuiz();
 }
+
 
 
 // HIGH SCORE FUNCTIONS
