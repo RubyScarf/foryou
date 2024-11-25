@@ -19,7 +19,7 @@ let questionArray = [
 
     { "question": "Where do children leave their shoes out in the window during the 13 days before Christmas?",
         "answers": ["United Kingdom", "Georgia", "Denmark", "Iceland", "France"],
-        "correctAnswer": 4
+        "correctAnswer": 5
     },
 
     { "question": "What country’s tradition includes the Krampus, a horned creature that punishes naughty children?",
