@@ -181,7 +181,7 @@ function checkAnswer(questionIndex, selectedAnswerIndex) {
     let hrElem = document.getElementById("answer-bar");
 
     // Check if the selected answer is correct
-    if (selectedIndex === correctIndex) {
+    if (selectedAnswerIndex === correctAnswerIndex) {
         feedbackText.textContent = "Correct!!!";
     } else {
         feedbackText.textContent = "Wrong :(";
