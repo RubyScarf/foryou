@@ -12,7 +12,7 @@ let questionArray = [
         "correctAnswer": 0
     },
 
-    { "question": "Which of the following has a cameo in Home Alone 2",
+    { "question": "Which of the following people has a cameo in Home Alone 2",
         "answers": ["Obama", "Trump", "Johansson", "Murphy", "Elvis"],
         "correctAnswer": 1
     },
