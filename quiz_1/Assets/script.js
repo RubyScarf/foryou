@@ -22,9 +22,19 @@ let questionArray = [
         "correctAnswer": 2
     },
 
-    { "question": "Which is NOT a type of loop in JavaScript?",
-        "answers": ["try... catch loops", "while loops", "do... while loops", "for loops"],
-        "correctAnswer": 0
+    { "question": "In the movie Home Alone, where does Kevin’s family go on vacation, leaving him behind?",
+        "answers": ["Paris", "Florida", "Hawaii", "London", "Buenos Aires"],
+        "correctAnswer": 1
+    },
+
+    { "question": "What is another common name for Santa Claus?",
+        "answers": ["Peter", "Joan", "Sawyer", "Paul", "Noel"],
+        "correctAnswer": 5
+    },
+
+    { "question": "What is a popular phrase for wishing someone a merry Christmas in Spanish?",
+        "answers": ["Concha Tu Madre", "Feliz Año Nuevo", "Feliz Navidad", "Buenos Dias"],
+        "correctAnswer": 3
     },
 ];
 
