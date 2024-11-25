@@ -175,10 +175,11 @@ function createLayout(questionObj) {
 
 /** if answer button is clicked, execute this function. Shows "Right" or "wrong" text, depending on answer */
 function checkAnswer(questionIndex, selectedAnswerIndex) {
-    // Subtract 1 from correctAnswer to adjust for 1-based indexing
-    const correctAnswerIndex = questionArray[questionIndex].correctAnswer - 1;
     let feedbackText = document.getElementById('right-wrong');
     let hrElem = document.getElementById("answer-bar");
+
+    // Get the correct answer index
+    const correctAnswerIndex = questionArray[questionIndex].correctAnswer;
 
     // Check if the selected answer is correct
     if (selectedAnswerIndex === correctAnswerIndex) {
