@@ -17,9 +17,9 @@ let questionArray = [
         "correctAnswer": 2
     },
 
-    { "question": "What does API stand for, in the context of web development?",
-        "answers": ["Are People Insane?!", "Asynchronous Possibility Interweaving", "Always Program Intelligently", "Application Programming Interface"],
-        "correctAnswer": 3
+    { "question": "In 'A Christmas Carol,' what is the first name of Scrooge?",
+        "answers": ["Elliot", "Ebenezer", "Scott", "Greg", "Derek"],
+        "correctAnswer": 2
     },
 
     { "question": "Which is NOT a type of loop in JavaScript?",
