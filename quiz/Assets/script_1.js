@@ -7,13 +7,13 @@ let questionArray = [
         "correctAnswer": 2
     },
 
-    { "question": "What decoration is traditionally placed at the top of a Christmas tree?",
-        "answers": ["Star", "Ornament", "Moon", "Sun"],
+    { "question": "What is the most common ballet show during Christmas time?",
+        "answers": ["The Nutcracker", "Santa Clause", "The Cupid", "The Christmas Ballet"],
         "correctAnswer": 0
     },
 
-    { "question": "Which country started the tradition of putting up a Christmas tree?",
-        "answers": ["England", "Germany", "Ireland", "USA"],
+    { "question": "Which of the following has a cameo in Home Alone 2",
+        "answers": ["Obama", "Trump", "Johansson", "Murphy", "Elvis"],
         "correctAnswer": 1
     },
 
@@ -27,14 +27,19 @@ let questionArray = [
         "correctAnswer": 0
     },
 
-    { "question": "What is another common name for Santa Claus?",
-        "answers": ["Peter", "Joan", "Sawyer", "Paul", "Noel"],
+    { "question": "What beverage company has been using Santa Claus in its advertising since 1931?",
+        "answers": ["Fanta", "7up", "Sprite", "Pepsi", "Coca-Cola"],
         "correctAnswer": 4
     },
 
-    { "question": "What is a popular phrase for wishing someone a merry Christmas in Spanish?",
-        "answers": ["Concha Tu Madre", "Feliz Año Nuevo", "Feliz Navidad", "Buenos Dias"],
+    { "question": "In what country do people celebrate Christmas by eating chicken from KFC?",
+        "answers": ["USA", "Chile", "Japan", "Morocco", "Canada"],
         "correctAnswer": 2
+    },
+    
+    { "question": "What does Santa give the naughty kids on Christmas morning?",
+        "answers": ["Letter", "Jumpscare", "Spank", "Coal", "Candy"],
+        "correctAnswer": 5
     },
 ];
 
