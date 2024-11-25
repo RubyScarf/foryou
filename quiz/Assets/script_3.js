@@ -2,14 +2,14 @@
 
 // Quiz questions to be asked.
 let questionArray = [
-    { "question": "What are the names of Santa’s reindeer who lead his sleigh?",
-        "answers": ["Donner", "Comet", "Rudolph", "Dasher", "Donner"],
-        "correctAnswer": 2
+    { "question": "In which European country is Santa Claus known as Père Noël?",
+        "answers": ["Hungary", "Germany", "England", "Italy", "France"],
+        "correctAnswer": 4
     },
 
-    { "question": "What decoration is traditionally placed at the top of a Christmas tree?",
-        "answers": ["Star", "Ornament", "Moon", "Sun"],
-        "correctAnswer": 0
+    { "question": "What country is known for its Giant Lantern Festival, held every December in San Fernando?",
+        "answers": ["Puerto Rico", "The Phillippines", "El Salvador", "Russia"],
+        "correctAnswer": 1
     },
 
     { "question": "Which country started the tradition of putting up a Christmas tree?",
@@ -17,24 +17,24 @@ let questionArray = [
         "correctAnswer": 1
     },
 
-    { "question": "In 'A Christmas Carol,' what is the first name of Scrooge?",
-        "answers": ["Elliot", "Ebenezer", "Scott", "Greg", "Derek"],
-        "correctAnswer": 1
-    },
-
-    { "question": "In the movie Home Alone, where does Kevin’s family go on vacation, leaving him behind?",
-        "answers": ["Paris", "Florida", "Hawaii", "London", "Buenos Aires"],
-        "correctAnswer": 0
-    },
-
-    { "question": "What is another common name for Santa Claus?",
-        "answers": ["Peter", "Joan", "Sawyer", "Paul", "Noel"],
+    { "question": "Where do children leave their shoes out in the window during the 13 days before Christmas?",
+        "answers": ["United Kingdom", "Georgia", "Denmark", "Iceland", "France"],
         "correctAnswer": 4
     },
 
-    { "question": "What is a popular phrase for wishing someone a merry Christmas in Spanish?",
-        "answers": ["Concha Tu Madre", "Feliz Año Nuevo", "Feliz Navidad", "Buenos Dias"],
+    { "question": "What country’s tradition includes the Krampus, a horned creature that punishes naughty children?",
+        "answers": ["Austria", "Hungary", "Germany", "Sweden", "Switzerland"],
+        "correctAnswer": 0
+    },
+
+    { "question": "Where do people reenact Mary and Joseph’s search for shelter (posadas)?",
+        "answers": ["Argentina", "Spain", "Mexico", "Canada", "Colombia"],
         "correctAnswer": 2
+    },
+
+    { "question": "In what country are Christmas trees decorated with ornaments shaped like Spiders/webs?",
+        "answers": ["Russia", "Ukraine", "Ghana", "Greenland", "Ireland"],
+        "correctAnswer": 1
     },
 ];
 
