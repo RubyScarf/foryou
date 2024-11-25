@@ -175,7 +175,7 @@ function createLayout(questionObj) {
 
 
 
-/** if answer button is clicked, execute this function. Shows "Right" or "wrong" text, depending on answer */
+/* if answer button is clicked, execute this function. Shows "Right" or "wrong" text, depending on answer 
 function checkAnswer(event) {
     event.preventDefault();
     if (event.target.matches("button")) {
@@ -215,8 +215,31 @@ function checkAnswer(event) {
             1000
         );
     }
-}
+} */
 
+function checkAnswer(selectedIndex, correctIndex) {
+    let feedbackText = document.getElementById('right-wrong');
+    let hrElem = document.getElementById("answer-bar");
+    
+    // Check if the selected answer is correct
+    if (selectedIndex === correctIndex) {
+        feedbackText.textContent = "Correct!!!";
+    } else {
+        feedbackText.textContent = "Wrong :(";
+        penalize(PENALTYTIME); // Deduct time for wrong answers
+    }
+
+    // Show feedback temporarily
+    hrElem.style.visibility = 'visible';
+    feedbackText.style.visibility = 'visible';
+    setTimeout(() => {
+        hrElem.style.visibility = 'hidden';
+        feedbackText.style.visibility = 'hidden';
+    }, 2000);
+
+    // Move to the next question
+    runQuiz();
+}
 
 // HIGH SCORE FUNCTIONS
 // ---------------------
