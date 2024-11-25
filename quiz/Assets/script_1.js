@@ -86,7 +86,7 @@ initialQuiz();
 // The start button resets the timer, hides itself, hides high score elements, erases intitial content, and resets quiz-related variables.
 startBtn.addEventListener("click", function () {
     highScoresBtn.style.display = "none";
-    quizTitle.textContent="Coding Quiz";
+    quizTitle.textContent="Christmas Quiz #1";
     newTime = TOTALTIMEGIVEN;
     timeOver = false;
     questionNumber = 0;
