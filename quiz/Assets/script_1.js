@@ -39,7 +39,7 @@ let questionArray = [
     
     { "question": "What does Santa give the naughty kids on Christmas morning?",
         "answers": ["Letter", "Jumpscare", "Spank", "Coal", "Candy"],
-        "correctAnswer": 5
+        "correctAnswer": 3
     },
 ];
 
