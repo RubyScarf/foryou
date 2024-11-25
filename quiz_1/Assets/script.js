@@ -12,13 +12,9 @@ let questionArray = [
         "correctAnswer": 1
     },
 
-    { "question": "If you were a detective looking for the quiz answers, where might you look?",
-        "answers": ["Inspect the DOM for the button with id='correct'", 
-            "Look for the questions in the JavaScript source code", 
-            "Do research on the internet", 
-            "All of the above"
-        ],
-        "correctAnswer": 3
+    { "question": "Which country started the tradition of putting up a Christmas tree?",
+        "answers": ["England", "Germany", "Ireland", "USA"],
+        "correctAnswer": 2
     },
 
     { "question": "What does API stand for, in the context of web development?",
