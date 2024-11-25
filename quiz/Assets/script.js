@@ -4,37 +4,37 @@
 let questionArray = [
     { "question": "What are the names of Santa’s reindeer who lead his sleigh?",
         "answers": ["Donner", "Comet", "Rudolph", "Dasher", "Donner"],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
 
     { "question": "What decoration is traditionally placed at the top of a Christmas tree?",
         "answers": ["Star", "Ornament", "Moon", "Sun"],
-        "correctAnswer": 1
+        "correctAnswer": 0
     },
 
     { "question": "Which country started the tradition of putting up a Christmas tree?",
         "answers": ["England", "Germany", "Ireland", "USA"],
-        "correctAnswer": 2
+        "correctAnswer": 1
     },
 
     { "question": "In 'A Christmas Carol,' what is the first name of Scrooge?",
         "answers": ["Elliot", "Ebenezer", "Scott", "Greg", "Derek"],
-        "correctAnswer": 2
+        "correctAnswer": 1
     },
 
     { "question": "In the movie Home Alone, where does Kevin’s family go on vacation, leaving him behind?",
         "answers": ["Paris", "Florida", "Hawaii", "London", "Buenos Aires"],
-        "correctAnswer": 1
+        "correctAnswer": 0
     },
 
     { "question": "What is another common name for Santa Claus?",
         "answers": ["Peter", "Joan", "Sawyer", "Paul", "Noel"],
-        "correctAnswer": 5
+        "correctAnswer": 4
     },
 
     { "question": "What is a popular phrase for wishing someone a merry Christmas in Spanish?",
         "answers": ["Concha Tu Madre", "Feliz Año Nuevo", "Feliz Navidad", "Buenos Dias"],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
 ];
 
