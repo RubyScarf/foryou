@@ -2,18 +2,18 @@
 
 // Quiz questions to be asked.
 let questionArray = [
-    { "question": "What are the names of Santa’s reindeer who lead his sleigh?",
-        "answers": ["Donner", "Comet", "Rudolph", "Dasher", "Donner"],
+    { "question": "What goofy song talks about a boy seeing Santa with his mother?",
+        "answers": ["Clarice", "Twelve Days of Christmas", "I Saw Mommy Kissing Santa Claus", "The Griswolds", "O Tannenbaum"],
         "correctAnswer": 2
     },
 
-    { "question": "What decoration is traditionally placed at the top of a Christmas tree?",
-        "answers": ["Star", "Ornament", "Moon", "Sun"],
+    { "question": "What beloved Christmas song was recorded by Puerto Rican singer-songwriter José Feliciano in 1970?",
+        "answers": ["Feliz Navidad", "Prospero Año", "Burrito Sabanero", "Peces en el Rio"],
         "correctAnswer": 0
     },
 
-    { "question": "Which country started the tradition of putting up a Christmas tree?",
-        "answers": ["England", "Germany", "Ireland", "USA"],
+    { "question": "What Bing Crosby song is the best-selling single ever?",
+        "answers": ["WHAM", "White Christmas", "Jingle Bells", "Jolly Christmas"],
         "correctAnswer": 1
     },
 
