@@ -151,31 +151,46 @@ function penalize(PENALTYTIME) {
  * @param {Object} questionObj Each questionObj should consist of a 'question' property,
  *  an 'answers' property with an array as a value, and a 'correctAnswer' property with the array index as a value. */
 function createLayout(questionObj) {
-    quizLayout.innerHTML = ""; // Clear existing layout
+    let numberOfAnswers = questionObj.answers.length;
 
-    // Add question text
+    // First create a paragraph element for the question and append it to quizLayout.
     let questionPara = document.createElement('p');
-    questionPara.textContent = questionObj.question;
+    questionPara.textContent = questionObj["question"];
     questionPara.setAttribute("class", "question col md-12");
     quizLayout.appendChild(questionPara);
 
-    // Add answer buttons
-    questionObj.answers.forEach((answer, index) => {
-        let answerRow = document.createElement('div');
-        answerRow.setAttribute("class", "row");
-        quizLayout.appendChild(answerRow);
+    // Use a for loop to create buttons and paragraphs for each of 4 answers, and append them to quizLayout.
+    for (let i = 0; i < numberOfAnswers; i++) {
+        let newRow = document.createElement('div');
+        newRow.setAttribute("class", "row");
+        quizLayout.appendChild(newRow);
 
         let answerBtn = document.createElement('button');
-        answerBtn.textContent = `${index + 1}. ${answer}`;
-        answerBtn.setAttribute("class", "answerBtn btn btn-primary col-md-12");
-        answerBtn.addEventListener("click", () => checkAnswer(index, questionObj.correctAnswer - 1)); // Pass current index and correctAnswer
-        answerRow.appendChild(answerBtn);
-    });
+        // Here, add 1 to i on the answer button text, so answers start from 1 rather than 0
+        answerBtn.textContent = i + 1 + ".";
+        answerBtn.setAttribute("class", "answerBtn btn btn-primary col-md-1");
+        answerBtn.setAttribute("type", "button");
+        // add correctAnswer id to the correct answer button
+        if (questionObj.correctAnswer === i) {
+            answerBtn.setAttribute("id", "correctAnswer");
+        }
+        // create paragraphs containing the answer options
+        let answerPara = document.createElement('p');
+        answerPara.textContent = questionObj.answers[i];
+        answerPara.setAttribute("class", "answerPara col-md-11");
+
+        // Final step of loop: append the created elements.
+        newRow.appendChild(answerBtn);
+        newRow.appendChild(answerPara);
+    }
+
+    // To complete the layout function, add an event listener to the parent quiz div element.
+    // The listener activates upon an answer button press, since the answer buttons are children. (event delegation).
+    quizLayout.addEventListener("click", checkAnswer);
 }
 
 
-
-/* if answer button is clicked, execute this function. Shows "Right" or "wrong" text, depending on answer */
+/** if answer button is clicked, execute this function. Shows "Right" or "wrong" text, depending on answer */
 function checkAnswer(event) {
     event.preventDefault();
     if (event.target.matches("button")) {
@@ -215,7 +230,7 @@ function checkAnswer(event) {
             1000
         );
     }
-} 
+}
 
 
 // HIGH SCORE FUNCTIONS
