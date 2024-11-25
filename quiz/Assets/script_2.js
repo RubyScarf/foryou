@@ -3,13 +3,13 @@
 // Quiz questions to be asked.
 let questionArray = [
     { "question": "What goofy song talks about a boy seeing Santa with his mother?",
-        "answers": ["Clarice", "Twelve Days of Christmas", "I Saw Mommy Kissing Santa Claus", "The Griswolds", "O Tannenbaum"],
-        "correctAnswer": 2
+        "answers": ["I Saw Mommy Kissing Santa Claus", "Clarice", "Twelve Days of Christmas", "The Griswolds", "O Tannenbaum"],
+        "correctAnswer": 0
     },
 
     { "question": "What beloved Christmas song was recorded by Puerto Rican singer-songwriter José Feliciano in 1970?",
-        "answers": ["Feliz Navidad", "Prospero Año", "Burrito Sabanero", "Peces en el Rio"],
-        "correctAnswer": 0
+        "answers": ["Prospero Año", "Burrito Sabanero", "Peces en el Rio", "Feliz Navidad"],
+        "correctAnswer": 3
     },
 
     { "question": "What Bing Crosby song is the best-selling single ever?",
@@ -18,8 +18,8 @@ let questionArray = [
     },
 
     { "question": "What ran over Grandma?",
-        "answers": ["Santa's Sled", "A Reindeer", "A Car", "An Elf", "Death"],
-        "correctAnswer": 1
+        "answers": ["Santa's Sled", "A Car", "A Reindeer", "An Elf", "Death"],
+        "correctAnswer": 2
     },
 
     { "question": "In the song “We Wish You a Merry Christmas,” what food do they ask for?",
@@ -28,13 +28,13 @@ let questionArray = [
     },
 
     { "question": "What well-known Christmas carol became the first song ever broadcast from space in 1965??",
-        "answers": ["Hark the Harold", "O Come Emmanuel", "Sleigh Ride", "Silent Night", "Jingle Bells"],
-        "correctAnswer": 4
+        "answers": ["Hark the Harold", "Jingle Bells", "O Come Emmanuel", "Sleigh Ride", "Silent Night"],
+        "correctAnswer": 1
     },
 
     { "question": "What Spanish song talks about a boy and his donkey?",
-        "answers": ["Peces en el Rio", "Feliz Navidad", "Burrito Sabanero", "Campanas de Belen"],
-        "correctAnswer": 2
+        "answers": ["Burrito Sabanero", "Peces en el Rio", "Feliz Navidad", "Campanas de Belen"],
+        "correctAnswer": 0
     },
 ];
 
