@@ -7,9 +7,9 @@ let questionArray = [
         "correctAnswer": 3
     },
 
-    { "question": "In the JavaScript array \"spam = [1, 2, 3, 4, 5]\", what is spam[1] equal to?",
-        "answers": ["1", "[1, 2, 3, 4, 5]", "2", "undefined"],
-        "correctAnswer": 2
+    { "question": "What decoration is traditionally placed at the top of a Christmas tree?",
+        "answers": ["Star", "Ornament", "Moon", "Sun"],
+        "correctAnswer": 1
     },
 
     { "question": "If you were a detective looking for the quiz answers, where might you look?",
