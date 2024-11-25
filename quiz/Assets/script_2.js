@@ -17,23 +17,23 @@ let questionArray = [
         "correctAnswer": 1
     },
 
-    { "question": "In 'A Christmas Carol,' what is the first name of Scrooge?",
-        "answers": ["Elliot", "Ebenezer", "Scott", "Greg", "Derek"],
+    { "question": "What ran over Grandma?",
+        "answers": ["Santa's Sled", "A Reindeer", "A Car", "An Elf", "Death"],
         "correctAnswer": 1
     },
 
-    { "question": "In the movie Home Alone, where does Kevin’s family go on vacation, leaving him behind?",
-        "answers": ["Paris", "Florida", "Hawaii", "London", "Buenos Aires"],
+    { "question": "In the song “We Wish You a Merry Christmas,” what food do they ask for?",
+        "answers": ["Pudding", "Cake", "Fruitcake", "Ham", "Mashed Potatoes"],
         "correctAnswer": 0
     },
 
-    { "question": "What is another common name for Santa Claus?",
-        "answers": ["Peter", "Joan", "Sawyer", "Paul", "Noel"],
+    { "question": "What well-known Christmas carol became the first song ever broadcast from space in 1965??",
+        "answers": ["Hark the Harold", "O Come Emmanuel", "Sleigh Ride", "Silent Night", "Jingle Bells"],
         "correctAnswer": 4
     },
 
-    { "question": "What is a popular phrase for wishing someone a merry Christmas in Spanish?",
-        "answers": ["Concha Tu Madre", "Feliz Año Nuevo", "Feliz Navidad", "Buenos Dias"],
+    { "question": "What Spanish song talks about a boy and his donkey?",
+        "answers": ["Peces en el Rio", "Feliz Navidad", "Burrito Sabanero", "Campanas de Belen"],
         "correctAnswer": 2
     },
 ];
