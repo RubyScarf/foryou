@@ -2,9 +2,9 @@
 
 // Quiz questions to be asked.
 let questionArray = [
-    { "question": "How many bits are in a byte?",
-        "answers": ["4", "8", "16", "32", "64"],
-        "correctAnswer": 1
+    { "question": "What are the names of Santa’s reindeer who lead his sleigh?",
+        "answers": ["Donner", "Comet", "Rudolph", "Dasher", "Donner"],
+        "correctAnswer": 3
     },
 
     { "question": "In the JavaScript array \"spam = [1, 2, 3, 4, 5]\", what is spam[1] equal to?",
