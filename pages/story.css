@@ -2,18 +2,65 @@ html {
   box-sizing: border-box;
 }
 body {
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(60,129,176,1) 100%, rgba(160,32,240,1) 100%,);
-  background-size: cover; /* Cover the entire viewport */
-  height: 100vh; /* Ensure the body takes the full viewport height */
-  margin: 5; /* Remove default margin */
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(135, 206, 235, 1) 50%, rgba(0, 0, 139, 1) 100%);
+  background-attachment: fixed; /* Ensures background doesn’t scroll with content */
+  color: #fff; /* White default text color */
+  margin: 0; /* Remove default margins */
+  font-family: 'Verdana', sans-serif; /* A clean, legible font */
 }
 
-p {
-  text-align: justify;
-  margin: 5;
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/snow.png');
+  pointer-events: none; /* Allow interaction with underlying elements */
+  animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.2); /* Subtle transparency */
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Border with transparency */
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds depth */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
 }
 
 h1 {
-  text-align: center;
-  font-family: fantasy;
+  color: #ffffff; /* White text for contrast against background */
+  text-shadow: 2px 2px 5px #000; /* Adds a glowing effect */
+  font-size: 3rem; /* Increase the size for a more striking title */
+  margin-top: 20px;
 }
+
+p {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.8; /* Add spacing between lines for better readability */
+  font-size: 1.2rem;
+  color: #ffffff; /* White text for readability on a dark background */
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for the text */
+  padding: 15px; /* Add padding inside the text box */
+  border-radius: 10px; /* Smooth rounded corners */
+  margin: 20px auto;
+  width: 80%; /* Center the text and limit width */
+}
+
+p:hover {
+  transform: scale(1.02); /* Slightly enlarges the text box */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); /* Highlights the section */
+}
+
