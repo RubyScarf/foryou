@@ -21,7 +21,7 @@ body {
 
 h1 {
   color: #000; /* White text for contrast against background */
-  text-shadow: 2px 2px 5px #000; /* Adds a glowing effect */
+  text-shadow: 2px 2px 5px #fff; /* Adds a glowing effect */
   font-size: 3rem; /* Increase the size for a more striking title */
   margin-top: 20px;
   text-align: center;
