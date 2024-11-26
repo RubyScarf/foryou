@@ -1,10 +1,11 @@
+html {
+  box-sizing: border-box;
+}
 body {
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(60,129,176,1) 100%, rgba(160,32,240,1) 100%,);
   background-size: cover; /* Cover the entire viewport */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent repeating */
   height: 100vh; /* Ensure the body takes the full viewport height */
-  margin: 0; /* Remove default margin */
+  margin: 5; /* Remove default margin */
 }
 
 p {
@@ -15,5 +16,4 @@ p {
 h1 {
   text-align: center;
   font-family: fantasy;
-  font-weight: bolder;
 }
