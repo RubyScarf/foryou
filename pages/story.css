@@ -2,32 +2,11 @@ html {
   box-sizing: border-box;
 }
 body {
-  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(135, 206, 235, 1) 50%, rgba(0, 0, 139, 1) 100%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(135, 206, 235, 1) 50%, rgba(0, 0, 139, 0.5) 100%);
   background-attachment: fixed; /* Ensures background doesn’t scroll with content */
   color: #fff; /* White default text color */
   margin: 0; /* Remove default margins */
   font-family: 'Verdana', sans-serif; /* A clean, legible font */
-}
-
-body::after {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/snow.png');
-  pointer-events: none; /* Allow interaction with underlying elements */
-  animation: snow 10s linear infinite;
-}
-
-@keyframes snow {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 100% 100%;
-  }
 }
 
 .container {
@@ -45,6 +24,7 @@ h1 {
   text-shadow: 2px 2px 5px #000; /* Adds a glowing effect */
   font-size: 3rem; /* Increase the size for a more striking title */
   margin-top: 20px;
+  text-align: center;
 }
 
 p {
@@ -52,15 +32,9 @@ p {
   line-height: 1.8; /* Add spacing between lines for better readability */
   font-size: 1.2rem;
   color: #ffffff; /* White text for readability on a dark background */
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for the text */
   padding: 15px; /* Add padding inside the text box */
   border-radius: 10px; /* Smooth rounded corners */
   margin: 20px auto;
   width: 80%; /* Center the text and limit width */
-}
 
-p:hover {
-  transform: scale(1.02); /* Slightly enlarges the text box */
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); /* Highlights the section */
-}
 
