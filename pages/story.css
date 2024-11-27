@@ -37,4 +37,6 @@ p {
   margin: 20px auto;
   width: 80%; /* Center the text and limit width */
 
-
+a {
+  text-align: center;
+}
