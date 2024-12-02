@@ -19,6 +19,21 @@ body {
   color:#fff
 }
 
+p {
+  	font-family: 'Georgia', serif; 
+  font-size: 1.5rem; 
+  line-height: 1.8; 
+  text-align: center; 
+  color: #663399; 
+  background: rgba(255, 248, 220, 0.8); 
+  padding: 20px; 
+  margin: 20px auto; 
+  max-width: 600px; 
+  border: 2px solid #ffcccb; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 h1 {
   font-weight: 999;
   font-family: fantasy;
