@@ -84,28 +84,35 @@ a:hover {
     z-index: 1000;
 }
 
-.snow::before, .snow::after {
-    content: '';
+/* Individual snowflakes */
+.snowflake {
     position: absolute;
-    top: 0;
-    left: 50%;
-    width: 200%;
-    height: 200%;
-    background-image: radial-gradient(white 1px, transparent 1px);
-    background-size: 50px 50px;
-    animation: snowfall 10s linear infinite;
+    top: -50px; /* Start just above the viewport */
+    width: 30px;
+    height: 30px;
+    background-image: url('snowflake.png'); /* Replace with your snowflake PNG */
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    animation: fall linear infinite, sway ease-in-out infinite;
 }
 
-.snow::after {
-    animation-delay: 10s;
-    opacity: 0.7; /* Slightly faded snowflakes */
-}
-
-@keyframes snowfall {
+/* Falling animation */
+@keyframes fall {
     0% {
-        transform: translate(-50%, -100%);
+        transform: translateY(-100px);
     }
     100% {
-        transform: translate(-50%, 100%);
+        transform: translateY(100vh);
+    }
+}
+
+/* Sway animation for side-to-side movement */
+@keyframes sway {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(30px);
     }
 }
