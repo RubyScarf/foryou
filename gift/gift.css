@@ -90,7 +90,7 @@ a:hover {
     top: -50px; /* Start just above the viewport */
     width: 30px;
     height: 30px;
-    background-image: url('snowflake.png'); /* Replace with your snowflake PNG */
+    background-image: url('https://png.pngtree.com/png-clipart/20230927/original/pngtree-illustration-of-3d-snowflake-png-image_13140264.png'); /* Replace with your snowflake PNG */
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.8;
