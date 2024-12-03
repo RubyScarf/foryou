@@ -65,33 +65,35 @@ idk if it's wrong to bring God into this, but I pray He is always watching and p
     </div>
 </body>
 
-const snowContainer = document.querySelector('.snow');
-
-// Function to create a snowflake
-function createSnowflake() {
-    const snowflake = document.createElement('div');
-    snowflake.classList.add('snowflake');
-
-    // Random horizontal position
-    snowflake.style.left = Math.random() * window.innerWidth + 'px';
-
-    // Random animation duration (slower fall)
-    const fallDuration = Math.random() * 5 + 5; // Between 5s and 10s
-    snowflake.style.animationDuration = `${fallDuration}s`;
-
-    // Random sway duration
-    const swayDuration = Math.random() * 3 + 2; // Between 2s and 5s
-    snowflake.style.animationDuration = `${fallDuration}s, ${swayDuration}s`;
-
-    snowContainer.appendChild(snowflake);
-
-    // Remove the snowflake after it falls
-    setTimeout(() => {
-        snowflake.remove();
-    }, fallDuration * 1000);
-}
-
-// Generate snowflakes continuously
-setInterval(createSnowflake, 300); // Add a snowflake every 300ms
+    <script>
+        const snowContainer = document.querySelector('.snow');
+        
+        // Function to create a snowflake
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            snowflake.classList.add('snowflake');
+        
+            // Random horizontal position
+            snowflake.style.left = Math.random() * window.innerWidth + 'px';
+        
+            // Random animation duration (slower fall)
+            const fallDuration = Math.random() * 5 + 5; // Between 5s and 10s
+            snowflake.style.animationDuration = `${fallDuration}s`;
+        
+            // Random sway duration
+            const swayDuration = Math.random() * 3 + 2; // Between 2s and 5s
+            snowflake.style.animationDuration = `${fallDuration}s, ${swayDuration}s`;
+        
+            snowContainer.appendChild(snowflake);
+        
+            // Remove the snowflake after it falls
+            setTimeout(() => {
+                snowflake.remove();
+            }, fallDuration * 1000);
+        }
+        
+        // Generate snowflakes continuously
+        setInterval(createSnowflake, 300); // Add a snowflake every 300ms
+    </script>
 
 </html>
