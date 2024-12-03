@@ -97,7 +97,7 @@ a:hover {
 }
 
 .snow::after {
-    animation-delay: 5s;
+    animation-delay: 10s;
     opacity: 0.7; /* Slightly faded snowflakes */
 }
 
