@@ -12,6 +12,12 @@ body {
   background-repeat: no-repeat; /* Prevent repeating */
   /* height: 100vh; Ensure the body takes the full viewport height */
   margin: 0; /* Remove default margin */
+
+  overflow: hidden; /* Prevent scrollbars */
+  height: 100vh; /* asdlfjaskldfjasdl;kfjasl;df */
+  display: flex; /* fasjkdfhaklsdfjasl */
+  justify-content: center; /* asdklfhjaskldhfasdlkfh */
+  align-items: center; /* asdfjl;kajsdfaasdfasdkl;fj */
 }
 
 .text {
@@ -66,9 +72,6 @@ a {
 a:hover {
   color: #ffa07a; /* Warm coral on hover */
   text-decoration: underline;
-}
-
-
 }
 
 .snow {
